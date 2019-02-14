@@ -8,3 +8,4 @@ This project uses node.js with the express framework and Angular.
 Alex Mussell
 Jared Rackley
 Bethany Hull
+Egzona Rexhepi
