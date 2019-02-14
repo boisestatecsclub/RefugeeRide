@@ -1,0 +1,82 @@
+/* Font imports - lulo clean W01 is for titles and */
+
+@import url('https://db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|IBM+Plex+Sans');
+
+/* font-family: 'IBM Plex Sans', sans-serif;
+font-family: LuloCleanW01, sans-serif; */
+
+h1 {
+font-family: "LuloCleanW01-OneBold", sans-serif;
+text-transform: uppercase;
+font-size: 4em;
+}
+
+h3 {
+  font-family: "LuloCleanW01-OneBold", sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.7em;
+  font-size: 1.2em;
+}
+
+button {
+ background-color: rgba(241, 192, 101, 1);
+ padding: 1.5em;
+ font-family: "LuloCleanW01-OneBold", sans-serif;
+ font-size: 1em;
+ border-radius: 20px;
+ color: back;
+ transition: all .2s;
+}
+
+button:hover {
+  background-color: #a2230a;
+  padding: 1.52em;
+  font-size: 1.02em;
+  color: white;
+}
+
+.colors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.color {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 30px;
+}
+
+.color span {
+  font-family: "LuloCleanW01-OneBold", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.red {
+  background-color: #a2230a;
+}
+
+.gold {
+  background-color: rgba(241, 192, 101, 1);
+}
+
+.blue {
+  background-color: rgba(190, 236, 253, 1);
+}
+
+.gray {
+  background-color: rgba(241, 241, 241, 1);
+}
