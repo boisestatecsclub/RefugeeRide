@@ -6,3 +6,4 @@ This project uses node.js with the express framework.
 
 # Contributors
 Alex Mussell
+Jared Rackley
