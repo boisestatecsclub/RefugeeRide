@@ -5,5 +5,5 @@ A web app to help refugees get rides to practice from volunteer drivers.
 This project uses node.js with the express framework.
 
 # Contributors
-Alex Mussell
+Alex Mussell   
 Jared Rackley
