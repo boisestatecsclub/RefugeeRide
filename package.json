@@ -1,22 +1,16 @@
 {
-  "name": "refugee_ride",
-  "version": "1.0.0",
-  "description": "A website to help refugee kids get a ride to practice.",
-  "main": "app.js",
+  "name": "refugeeride",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/boisestatecsclub/RefugeeRide.git"
-  },
-  "author": "boisestatecsclub",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/boisestatecsclub/RefugeeRide/issues"
-  },
-  "homepage": "https://github.com/boisestatecsclub/RefugeeRide#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
   }
 }
