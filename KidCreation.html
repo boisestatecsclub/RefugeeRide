@@ -24,7 +24,7 @@
     </ul>
   </nav>
 
-  <body style="background-image: url('kidcreate-back.jpg');" class="home">
+  <body style="background-image: url('assets/kidcreate-back.jpg');" class="home">
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -37,6 +37,16 @@
 
     <center>
 	 
+    <div style="height:0px;overflow:hidden">
+       <input type="file" id="kidProfile" name="kidProfile" />
+    </div>
+    <button type="button" onclick="chooseFile();">Profile Picture Upload</button>
+
+    <script>
+       function chooseFile() {
+          document.getElementById("kidProfile").click();
+       }
+    </script>
 
     <div style="background-color: white; opacity: .9; padding: 3em">
 
