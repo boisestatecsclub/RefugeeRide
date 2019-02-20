@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>KidSignUp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='StyleGuide.css') }}">
+  <link class="jsbin" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" rel="stylesheet" type="text/css" />
+	<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script class="jsbin" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark fixed-top">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/index">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/clubs">Login</a>
+      </li>
+      <li class="nav-item active">
+          <a class="nav-link" href="#">Sign Up</a>
+      </li>
+    </ul>
+  </nav>
+
+  <body style="background-image: url('kidcreate-back.jpg');" class="home">
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <center>
+          <h1>Sign Up: Soccer Player</h1>
+        </center>
+        </div>
+
+    </div>
+
+    <center>
+	 
+
+    <div style="background-color: white; opacity: .9; padding: 3em">
+
+            <label for="firstName">First Name</label>
+            <input id="firstName" type="string">
+            <br>
+            <label for="lastName">Last Name</label>
+            <input id="lastName" type = "string">
+            <br>
+
+            <label for="age">Age</label>
+            <input id="age" type="string">
+            <br>
+
+            <label for="gender">Gender</label>
+            <input id="gender" type="string">
+            <br>
+
+            <label for="streetAdd">Address</label>
+            <input id="food" type="string">
+            <br>
+
+            <label for="city">City</label>
+            <input id="city" type="string">
+            <br>
+
+            <label for="state">State</label>
+            <input id="state" type="string">
+            <br>
+
+            <button>Create My Account</button>
+            <br>
+    </div>
+
+    </center>
+
+</div>
