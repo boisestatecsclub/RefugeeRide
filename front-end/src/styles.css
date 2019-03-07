@@ -1,0 +1,48 @@
+/* Font imports - lulo clean W01 is for titles and */
+
+@import url('https://db.onlinewebfonts.com/c/39a2c7f346d5cfae7045aeb2fb50d9ad?family=LuloCleanW01-OneBold');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great|IBM+Plex+Sans');
+
+/* font-family: 'IBM Plex Sans', sans-serif;
+font-family: LuloCleanW01, sans-serif; */
+
+h1 {
+font-family: "LuloCleanW01-OneBold", sans-serif;
+text-transform: uppercase;
+font-size: 4em;
+}
+
+h2, h3, h4 {
+  font-family: "LuloCleanW01-OneBold", sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+
+p, span, label {
+  font-family: 'IBM Plex Sans', sans-serif;
+  line-height: 1.7em;
+  font-size: 1.2em;
+}
+
+input, select {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1em;
+  margin-left: 7px;
+  border: gray solid 1px;
+}
+
+button {
+ background-color: rgba(241, 192, 101, 1);
+ padding: 1em 1.5em;
+ font-family: "LuloCleanW01-OneBold", sans-serif;
+ font-size: 1em;
+ border-radius: 20px;
+ color: back;
+ transition: all .2s;
+}
+
+button:hover {
+  background-color: #a2230a;
+  font-size: 1.02em;
+  color: white;
+}

@@ -1,0 +1,117 @@
+
+<!-- form for account creation for drivers, coaches and parents -->
+<form class="" action="index.html" method="post">
+  <div class="role">
+    <span>I am a:</span>
+    <div>
+      <label for="">Parent</label>
+      <input type="checkbox" id="parent" name="role_parent">
+    </div>
+    <div>
+      <label for="">Driver</label>
+      <input type="checkbox" id="driver" name="role_driver" onclick="driverInfo()">
+    </div>
+    <div>
+      <label for="">Coach</label>
+      <input type="checkbox" id="coach" name="role_coach">
+    </div>
+  </div>
+<div class="row">
+
+
+  <div>
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" name="user_f_name">
+  </div>
+  <div>
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" name="user_l_name">
+  </div>
+  </div>
+  <div class="row">
+
+
+  <div>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_email">
+  </div>
+  <div>
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="user_phone">
+  </div>
+  </div>
+
+  <!-- Additional fields are only displayed when the user checks the driver box -->
+  <div class="driver-additional">
+    <span>Additional information for drivers</span>
+    <div class="row">
+
+
+    <div>
+      <label for="add">Address:</label>
+      <input type="text" id="add" name="user_add">
+    </div>
+    <div>
+      <label for="add">City:</label>
+      <input type="text" id="city" name="user_city">
+    </div>
+    </div>
+    <div class="row">
+
+
+    <div>
+      <label for="add">State:</label>
+      <input type="text" id="state" name="user_state">
+    </div>
+    <div>
+      <label for="zip">Zip:</label>
+      <input type="number" id="zip" name="user_zip">
+    </div>
+    </div>
+    <div class="row">
+
+
+    <div>
+      <label for="age">Age:</label>
+      <input type="number" id="age" name="user_age">
+    </div>
+    <div>
+      <label for="business">Gender Identity:</label>
+
+      <select id="gender" name="gender">
+        <option value="Female">Female</option>
+        <option value="Male">Male</option>
+        <option value="Non-Binary">Non-Binary</option>
+      </select>
+    </div>
+    </div>
+    <div class="row">
+
+
+    <div>
+      <label for="user">Username:</label>
+      <input type="text" id="user" name="user">
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="user_pass">
+    </div>
+    </div>
+  </div>
+  <button class="ac-button" type="submit" name="button">Submit</button>
+</form>
+
+
+<script type="text/javascript">
+
+// Function makes additional fields appear when the user checks the driver box
+
+function driverInfo () {
+  if (document.getElementById("driver").checked === true) {
+    document.querySelector(".driver-additional").style.display = "block";
+  } else if (document.getElementById("driver").checked === false) {
+    document.querySelector(".driver-additional").style.display = "none";
+  }
+
+};
+</script>

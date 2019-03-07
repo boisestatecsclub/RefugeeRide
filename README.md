@@ -6,6 +6,8 @@ This project uses node.js with the express framework and Angular.
 
 # Contributors
 Alex Mussell   
-Jared Rackley
-Bethany Hull
-Egzona Rexhepi
+Jared Rackley   
+Moon Park   
+Bethany Hull   
+Egzona Rexhepi   
+Kacey Gambill
