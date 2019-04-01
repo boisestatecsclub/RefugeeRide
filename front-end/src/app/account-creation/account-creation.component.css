@@ -39,3 +39,12 @@ div {
 .ac-button {
   margin-top: 2em;
 }
+
+@media only screen and (max-width: 650px) {
+.row {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+}

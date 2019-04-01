@@ -9,7 +9,7 @@
     </div>
     <div>
       <label for="">Driver</label>
-      <input type="checkbox" id="driver" name="role_driver" onclick="driverInfo()">
+      <input type="checkbox" id="driver" name="role_driver" [(ngModel)]="isChecked" >
     </div>
     <div>
       <label for="">Coach</label>
@@ -42,7 +42,7 @@
   </div>
 
   <!-- Additional fields are only displayed when the user checks the driver box -->
-  <div class="driver-additional">
+  <div class="driver-additional" *ngIf = "isChecked">
     <span>Additional information for drivers</span>
     <div class="row">
 
@@ -57,8 +57,6 @@
     </div>
     </div>
     <div class="row">
-
-
     <div>
       <label for="add">State:</label>
       <input type="text" id="state" name="user_state">
