@@ -13,7 +13,7 @@ constructor(private http: HttpClient) { }
 
   ngOnInit() {
     this.http.get('http://httpbin.org/ip').subscribe( (response) => console.log(response) )
-    string testingData = `{'firstName': 'Dave', 'lastName': 'Brown', 'firstName': 'Sarah', 'lastName': 'Bogden', 'firstName': 'Daniel', 'lastName': 'Smith',}`;
+    // string testingData = `{'firstName': 'Dave', 'lastName': 'Brown', 'firstName': 'Sarah', 'lastName': 'Bogden', 'firstName': 'Daniel', 'lastName': 'Smith',}`;
   }
 
 

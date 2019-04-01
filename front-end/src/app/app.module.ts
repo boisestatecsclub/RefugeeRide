@@ -24,16 +24,15 @@ const appRoutes: Routes = [
     AppComponent,
     HeaderComponent,
     AccountCreationComponent,
-    AdminPendingBCheckComponent
-LandingPageComponent
+    AdminPendingBCheckComponent,
+    LandingPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
-
-RouterModule.forRoot(
+    HttpClientModule,
+    RouterModule.forRoot(
   appRoutes,
   { enableTracing: true } // <-- debugging purposes only
 )
