@@ -9,10 +9,9 @@ app.use(express.urlencoded({ extended: false }));
 
 app.use(express.static(path.join(__dirname, 'front-end', 'dist', 'front-end')));
 
-app.get('*', (req, res) => {
+app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'front-end', 'dist', 'front-end','index.html'));
 });
-
 app.listen(8080);
 
 module.exports = app;

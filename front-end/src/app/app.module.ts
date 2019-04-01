@@ -9,18 +9,34 @@ import { AdminPendingBCheckComponent } from './admin-pending-b-check/admin-pendi
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
+import { LandingPageComponent } from './landing-page/landing-page.component';
+import { RouterModule, Routes } from '@angular/router';
+const appRoutes: Routes = [
+
+  { path: 'home', component: LandingPageComponent },
+  { path: '', redirectTo:'/home', pathMatch:'full'}
+
+];
+
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     AccountCreationComponent,
     AdminPendingBCheckComponent
+LandingPageComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule
+
+RouterModule.forRoot(
+  appRoutes,
+  { enableTracing: true } // <-- debugging purposes only
+)
   ],
   providers: [],
   bootstrap: [AppComponent]
